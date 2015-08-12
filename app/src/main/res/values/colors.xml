@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary" type="color">#9a28a1</item>
+    <item name="primaryDark" type="color">#6f1d7e</item>
+    <item name="textColorPrimary" type="color">@android:color/white</item>
+    <item name="textGrey" type="color">#bdbdbd</item>
+</resources>
