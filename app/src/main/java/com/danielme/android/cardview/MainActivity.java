@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        linearLayoutDetails = (ViewGroup) findViewById(R.id.linearLayoutDetails);
-        imageViewExpand = (ImageView) findViewById(R.id.imageViewExpand);
+        linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
+        imageViewExpand = findViewById(R.id.imageViewExpand);
 
-        Toolbar toolbarCard = (Toolbar) findViewById(R.id.toolbarCard);
+        Toolbar toolbarCard = findViewById(R.id.toolbarCard);
         toolbarCard.setTitle(R.string.olinguito);
         toolbarCard.setSubtitle(R.string.subtitle);
         toolbarCard.inflateMenu(R.menu.menu_card);
