@@ -43,7 +43,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="toggleDetails"
                     android:orientation="horizontal"
                     android:padding="8dp">
 
@@ -57,13 +56,14 @@
                         android:textColor="@color/textColorTitle"
                         android:textSize="20sp" />
 
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/imageViewExpand"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@android:color/transparent"
                         android:contentDescription="@string/details"
-                        android:src="@mipmap/more" />
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@mipmap/more"
+                        android:onClick="toggleDetails"/>
                 </LinearLayout>
 
 
