@@ -10,10 +10,17 @@
     <style name="ToolbarCard" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="colorPrimary">@android:color/black</item>
         <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="subtitleTextAppearance">@style/Card.Subtitle</item>
+        <item name="titleTextAppearance">@style/Card.Title</item>
     </style>
 
     <style name="Card.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/textColorTitle</item>
     </style>
 
     <style name="Card.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">

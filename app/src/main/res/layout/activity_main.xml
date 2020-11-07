@@ -1,5 +1,4 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,13 +28,7 @@
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbarCard"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/white"
-                    app:popupTheme="@style/Theme.AppCompat.Light"
-                    app:subtitleTextAppearance="@style/Card.Subtitle"
-                    app:theme="@style/ToolbarCard"
-                    app:titleTextAppearance="@style/Card.Title" />
+                    style="@style/ToolbarCard"/>
 
                 <!--By Mark Gurney [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons -->
                 <ImageView
@@ -61,7 +54,7 @@
                         android:layout_weight="1"
                         android:gravity="center_vertical"
                         android:text="@string/details"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/textColorTitle"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -87,7 +80,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/info"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/textColorTitle"
                         android:textSize="16sp" />
                 </LinearLayout>
 

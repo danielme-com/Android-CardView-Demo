@@ -3,5 +3,6 @@
     <item name="primary" type="color">#9a28a1</item>
     <item name="primaryDark" type="color">#6f1d7e</item>
     <item name="textColorPrimary" type="color">@android:color/white</item>
+    <item name="textColorTitle" type="color">@android:color/black</item>
     <item name="textGrey" type="color">#bdbdbd</item>
 </resources>
