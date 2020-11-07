@@ -3,7 +3,6 @@
 <resources>
     <string name="app_name">CardView Demo</string>
     <string name="olinguito">Olinguito</string>
-    <string name="menu">Menu</string>
     <string name="subtitle">Bassaricyon neblina</string>
     <string name="option1">Option 1</string>
     <string name="option2">Option 2</string>
