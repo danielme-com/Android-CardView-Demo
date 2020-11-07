@@ -17,14 +17,9 @@
         android:padding="16dp"
         android:scrollbars="none">
 
-        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        <androidx.cardview.widget.CardView
             android:id="@+id/card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="4dp"
-            card_view:cardUseCompatPadding="true">
+            style="@style/AppTheme.CardView">
 
             <LinearLayout
                 android:id="@+id/linearLayoutCardContent"
