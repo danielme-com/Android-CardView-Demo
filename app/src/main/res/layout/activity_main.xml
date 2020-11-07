@@ -8,12 +8,7 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        tools:targetApi="lollipop" />
+        style="@style/ToolbarMain" />
 
     <ScrollView
         android:id="@+id/scrollView"
