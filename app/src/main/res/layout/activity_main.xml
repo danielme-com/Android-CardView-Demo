@@ -28,7 +28,11 @@
 
                 <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/toolbarCard"
-                    style="@style/ToolbarCard"/>
+                    style="@style/ToolbarCard" />
+
+                <!--app:title="@string/olinguito"
+                    app:subtitle="@string/subtitle"
+                    app:menu="@menu/menu_card" -->
 
                 <!--By Mark Gurney [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons -->
                 <ImageView
