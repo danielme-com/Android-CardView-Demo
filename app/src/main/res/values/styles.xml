@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primaryDark</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
     </style>
 
-    <style name="ToolbarCard" parent="ThemeOverlay.AppCompat.ActionBar">
-        <item name="colorPrimary">@android:color/black</item>
-        <item name="android:textColorPrimary">@android:color/black</item>
+    <style name="ToolbarCard" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@android:color/white</item>
-        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
-        <item name="subtitleTextAppearance">@style/Card.Subtitle</item>
-        <item name="titleTextAppearance">@style/Card.Title</item>
+        <item name="titleTextColor">@color/textColorTitle</item>
+        <item name="popupTheme">@style/Theme.MaterialComponents.Light</item>
     </style>
 
-    <style name="Card.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/textColorTitle</item>
-    </style>
-
-    <style name="Card.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/textGrey</item>
-    </style>
-
-    <style name="ToolbarMain">
+    <style name="AppTheme.ToolbarMain" parent="Widget.MaterialComponents.Toolbar.Primary">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?attr/actionBarSize</item>
-        <item name="android:background">?attr/colorPrimary</item>
         <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
     </style>
 
     <style name="AppTheme.CardView">

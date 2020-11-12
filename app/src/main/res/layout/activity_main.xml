@@ -5,9 +5,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
+    <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
-        style="@style/ToolbarMain" />
+        style="@style/AppTheme.ToolbarMain" />
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -16,7 +16,7 @@
         android:padding="16dp"
         android:scrollbars="none">
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/card"
             style="@style/AppTheme.CardView">
 
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <androidx.appcompat.widget.Toolbar
+                <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/toolbarCard"
                     style="@style/ToolbarCard"/>
 
@@ -87,7 +87,7 @@
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
     </ScrollView>
 
