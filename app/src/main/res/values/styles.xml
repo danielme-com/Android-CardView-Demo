@@ -10,10 +10,11 @@
     <style name="ToolbarCard" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="titleTextColor">@color/textColorTitle</item>-->
+        <!-- estilo automático adecuado para modo claro y modo oscuro -->
         <item name="popupTheme">@style/Theme.MaterialComponents.DayNight</item>
     </style>
 
+    <!--colorPrimary en modo claro, colorSurface en modo oscuro -->
     <style name="AppTheme.ToolbarMain" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?attr/actionBarSize</item>
@@ -23,6 +24,8 @@
     <style name="AppTheme.CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <!-- por defecto se aplica el colorSurface del tema-->
+        <!--<item name="cardBackgroundColor">@android:color/white</item>-->
         <item name="cardCornerRadius">4dp</item>
         <item name="cardElevation">4dp</item>
         <item name="cardUseCompatPadding">true</item>
