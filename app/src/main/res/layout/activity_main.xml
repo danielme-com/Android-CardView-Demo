@@ -57,8 +57,7 @@
                         android:layout_weight="1"
                         android:gravity="center_vertical"
                         android:text="@string/details"
-                        android:textColor="@color/textColorTitle"
-                        android:textSize="20sp" />
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
 
                     <ImageButton
                         android:id="@+id/imageViewExpand"
@@ -67,6 +66,7 @@
                         android:contentDescription="@string/details"
                         android:background="?attr/selectableItemBackground"
                         android:src="@mipmap/more"
+                        android:tint="?attr/colorOnSurface"
                         android:onClick="toggleDetails"/>
                 </LinearLayout>
 
@@ -77,6 +77,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="16dp"
                     android:visibility="gone">
 
                     <TextView
@@ -84,8 +86,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/info"
-                        android:textColor="@color/textColorTitle"
-                        android:textSize="16sp" />
+                        android:textAppearance="?attr/textAppearanceSubtitle1"
+                        />
                 </LinearLayout>
 
 
